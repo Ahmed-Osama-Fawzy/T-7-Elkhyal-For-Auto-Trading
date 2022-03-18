@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 800px;
+    margin-top: 0;
+    margin: auto;
+    transition: 2s;
+}
+hr{
+    width: 95%;
+    margin: auto;
+    height: 3px;
+    background:red;
+}
+header div:first-of-type{
+    background-color: red;
+    display: block;
+    height: 35px;
+}
+header div:first-of-type p{
+    float: left;
+    width: 35%;
+    padding:1% 7.5%;
+    margin: 0;
+    font-size: large;
+    color: black;
+}
+header div:last-of-type{
+    background-image: url("images/FB_IMG_1612181889304.jpg");
+    background-size: 110% 100%;
+    text-align: center;
+    color: azure;
+    margin: 0 ;
+}
+header div:last-of-type h1{
+    font-size: 60px;
+    padding: 388px 50px;
+    margin:0;
+}
+header div:last-of-type span{
+    color: red;
+}
+nav{
+    float: left;
+    width: 25%;
+    height: 895px;
+    background-color:red;
+    transition: 2s;
+    
+}
+nav:hover{
+    background-color:azure ;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    padding: 40px 5px;
+    font-size: x-large;
+}
+article section{
+    float: left;
+    width: 94%;
+    padding: 3%;
+    background-color: azure;
+    transition: 2s;
+}
+article section h2 span{
+    color: red;
+    text-decoration: underline black;
+}
+article section div{
+    float: left;
+    width: 31% ;
+    height: 260px;
+    margin: 1%;
+    transition: 1s;
+    position: relative;
+}
+article section h2{
+    font-size: 40px;
+    text-decoration: underline red;
+}
+article section div:hover img{
+    opacity: 0.5;
+    border-radius: 30px ;
+}
+article section div img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    z-index: 2;
+}
+article section div span button{
+    text-align: center;
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 110px;
+    left: 68px;
+    background-color: red ;
+    border: none;
+    height: 50px;
+    width: 100px;
+    transition: 2s;
+    border-radius:30px ;
+    font-size: 15px;
+    display: none ;
+}
+article section div span button:hover{
+    background-color: azure;
+    transition: 2s;
+}
+article section div:hover span button{
+    display: inline;
+}
+article section:nth-last-of-type(6) div {
+    height: 300px;
+    text-align: center;
+}
+article section:nth-last-of-type(6) div span{
+    font-size: x-large;
+}
+article section:nth-last-of-type(6) div img{
+ 
+    height: 60%;
+}
+article  section:nth-last-of-type(2) div span{
+    text-align: center;
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+    border-radius:30px ;
+    font-size:large;
+    line-height: 33px;
+    display: none;
+}
+article section:nth-last-of-type(2) div:hover span{
+    display: inline;
+    transition: 2s;
+}
+article section:last-of-type div span{
+    text-align: center;
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    transition: 2s;
+    border-radius:30px ;
+    font-size:large;
+    line-height: 33px;
+    display: none;
+}
+article section:last-of-type div:hover span{
+    display: inline;
+    transition: 2s;
+}
+article section:last-of-type div:hover img{
+    border-radius: 90%;
+}
+footer{
+    background-color: red;
+    display: inline-block;
+    color: azure;
+    transition: 2s;
+}
+footer:hover{
+    color: black;
+}
+footer div{
+    float: left;
+    width: 21%;
+    padding: 1%;
+    margin: 1%;
+    line-height: 30px;
+}
+footer div:nth-last-of-type(6){
+    width: 42%;
+    padding: 2%;
+    margin: 2%;
+}
+footer div:nth-last-of-type(5){
+    width: 42%;
+    padding: 2%;
+    margin: 2%;
+}
+footer div:nth-last-of-type(6) img {
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+footer div:nth-last-of-type(6) h1{
+    display: inline;
+}
+footer div form input{
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    background-color: azure;
+    color: black;
+    height: 30px;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    transition: 2s;
+    margin-top: 15px;
+}
+footer div h3 {
+    font-size: x-large;
+}
+footer div form input:hover{
+    color: red;
+    background-color: black;
+}
